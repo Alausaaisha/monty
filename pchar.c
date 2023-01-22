@@ -16,6 +16,7 @@ void f_pchar(stack_t **head, unsigned int counter)
 	h = *head;
 
 	if (!h)
+
 	{
 		fprintf(stderr, "L%d: can't pchar, stack empty\n", counter);
 
